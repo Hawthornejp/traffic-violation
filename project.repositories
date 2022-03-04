@@ -1,5 +1,13 @@
 <project-repositories>
   <repositories>
+  <repository>
+      <include>true</include>
+      <metadata>
+        <id>red-hat-enterprise-maven-repository</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
     <repository>
       <include>true</include>
       <metadata>
